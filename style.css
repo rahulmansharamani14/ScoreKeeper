@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+
+.container{
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.winner{
+    color: green;
+}
+
+.reset{
+    padding: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.display{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 4rem;
+}
+
+.number{
+    font-size: 2rem;
+}
